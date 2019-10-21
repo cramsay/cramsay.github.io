@@ -5,10 +5,11 @@ let
     pkgs.ruby
     pkgs.jekyll
     pkgs.zlib
+    pkgs.bundler
   ];
 in
 pkgs.stdenv.mkDerivation {
-  name = "env";
+  name = "jekyll-local";
   buildInputs = nixPackages;
-  shellHooks = "bundle exec jekyll serve --livereload";
+  shellHooks = "bundle install && bundle exec jekyll serve -o --livereload";
 }
