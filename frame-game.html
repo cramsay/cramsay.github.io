@@ -11,16 +11,16 @@
 <body>
   <div id="controls">
     <div class="mid">
-      <span> <h1> Frame Game! Yeah, hell yeah. </h1> </span>
+      <h1>The Frame Game </h1>
     </div>
     <br/>
     <div class="mid">
-      <label for="delta">Delta (s)</label>
+      <label for="delta">Delta</label>
       <input type="text" id="delta" size="2" placeholder="10" value="10" pattern="^([0-9]?[0-9])$" oninput="this.reportValidity()" required>
       <div class="spacer"></div>
-      <label for="timestamp">Timestamp (s)</label>
+      <label for="timestamp">Time</label>
       <input type="text" id="timestamp" size="8" placeholder="hh:mm:ss" pattern="^([0-5]?[0-9]:)?([0-5]?[0-9]:)?([0-5]?[0-9])$" class="inputs time" oninput="this.reportValidity()" onkeypress='(event) => {if (event.key=="Enter"){basicCountdown()}}' required>
-      <span id="duration">(duration unknown)</span>
+      <span id="duration">(??:??:??)</span>
     </div>
     <br/>
     <div class="mid">
@@ -33,9 +33,11 @@
   </div>
   <br/>
 
-  <div id="playergroup">
-    <div id="player"> </div>
-    <img src="./frame-game/jack.png" id="icansmellit"/>
+  <div class="mid">
+    <div id="playergroup">
+      <div id="player"> </div>
+      <img src="./frame-game/jack.png" id="icansmellit"/>
+    </div>
   </div>
 
   <script src="./frame-game/app.js"></script>
