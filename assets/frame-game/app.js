@@ -26,7 +26,7 @@ function FGPlayer(wrapper, durationElem, ytId) {
  wrapper.innerHTML = "";
  this.player = new YT.Player(wrapper, {
      height: '400px',
-     width: '80.5%',
+     width: '100%',
      videoId: ytId,
      // Fields from https://developers.google.com/youtube/player_parameters
      playerVars: {

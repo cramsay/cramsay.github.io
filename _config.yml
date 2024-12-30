@@ -13,20 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: cramsay's blog
+title: cramsay homepage
 email: craig.ramsay.100@strath.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  A dumping ground for posts. Expect functional programming, FPGAs, and music.
+  cramsay homepage
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cramsay.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: thecramsay
+url: "cramsay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: thecramsay
 github_username:  cramsay
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: b2a3e8/jekyll-theme-console@v0.3.12
+# theme: jekyll-theme-console
 plugins:
   - jekyll-feed
+
+header_pages:
+  - index.md
+  - frame-game.md
+footer: '<a href="https://github.com/cramsay">github</a> <a href="https://researchportal.hw.ac.uk/en/persons/craig-ramsay/">heriot-watt</a> <a href="https://pureportal.strath.ac.uk/en/persons/craig-ramsay/">strathclyde</a>'
+listen_for_clients_preferred_style: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,9 +1,7 @@
-body {background-color: coral;}
-
 #controls {
     width: 95%;
-    background-color: turquoise;
-    border-radius: 15px;
+    background-color: coral;
+    border-radius: 5px;
     padding:15px;
     margin: auto;
     display: flow-root;
@@ -33,28 +31,30 @@ body {background-color: coral;}
 
 label {
     margin-right: 10px;
+    color: black;
 }
 
 #playergroup {
 }
 
 #status {
-    color: blue;
+    color: coral;
 }
 
 #player {
     position: relative;
     bottom: 0px;
     left: 0px;
-    width: 80%;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 #icansmellit {
-    position: relative;
-    bottom: 0px;
-    right: 0px;
-    width: 15%;
-    z-index: -1;
-    border-radius: 15px;
+    width:20%;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
 }
+
+h1 { font-size: 16pt; }
+h2 { font-size: 14pt; }

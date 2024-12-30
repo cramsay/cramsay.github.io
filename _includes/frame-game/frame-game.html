@@ -1,0 +1,34 @@
+<link rel="icon" type="image/x-icon" href="./assets/frame-game/jack.png">
+<link rel="stylesheet" href="./assets/frame-game/style.css">
+
+<div class="mid">
+  <h1> Frame Game </h1>
+</div>
+
+<div>
+  <div class="mid"> <img src="/assets/frame-game/jack.png" id="icansmellit"/> </div>
+  <div id="controls">
+    <div class="mid">
+      <label for="delta">Delta</label>
+      <input type="text" id="delta" size="2" placeholder="10" value="10" pattern="^([0-9]?[0-9])$" oninput="this.reportValidity()" required>
+      <div class="spacer"></div>
+      <label for="timestamp">Time</label>
+      <input type="text" id="timestamp" size="8" placeholder="hh:mm:ss" pattern="^([0-5]?[0-9]:)?([0-5]?[0-9]:)?([0-5]?[0-9])$" class="inputs time" oninput="this.reportValidity()" onkeypress='(event) => {if (event.key=="Enter"){basicCountdown()}}' required>
+      <span id="duration">(??:??:??)</span>
+    </div>
+    <br/>
+    <div class="mid">
+      <button id="play" onclick="basicCountdown()"> Play </button>
+    </div>
+  </div>
+</div>
+
+<div class="mid">
+    <h2><span id="status">Guess a time!</span></h2>
+</div>
+
+<div class="mid">
+    <div id="player"> </div>
+</div>
+
+<script src="./assets/frame-game/app.js"></script>
