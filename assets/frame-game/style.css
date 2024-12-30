@@ -56,5 +56,5 @@ label {
     border-radius: 5px;
 }
 
-h1 { font-size: 16pt; }
-h2 { font-size: 14pt; }
+.title { font-size: 16pt; }
+.subtitle { font-size: 14pt; }
