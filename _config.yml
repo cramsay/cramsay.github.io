@@ -31,6 +31,7 @@ plugins:
 
 header_pages:
   - index.md
+  - pages/haflang.md
   - pages/frame-game.md
 footer: '<a href="https://github.com/cramsay">github</a> <a href="https://researchportal.hw.ac.uk/en/persons/craig-ramsay/">heriot-watt</a> <a href="https://pureportal.strath.ac.uk/en/persons/craig-ramsay/">strathclyde</a>'
 listen_for_clients_preferred_style: true
