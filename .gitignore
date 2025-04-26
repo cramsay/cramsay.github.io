@@ -15,5 +15,4 @@ package-lock.json
 .bundle/
 .github/
 .ipynb_checkpoints/
-vendor
-_talks/my-project-env
+
