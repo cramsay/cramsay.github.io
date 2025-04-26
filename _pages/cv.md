@@ -22,6 +22,20 @@ Education
 Work experience
 ======
 
+* _2022--2025_ Dependable Systems Group --- Herriot-Watt University
+  * Research associate on the [HAFLANG](https://haflang.github.io/) project.
+    Designing and evaluating a [custom processor](/publications/ifl_23) for lazy
+    functional languages, aiming to improve run-times and energy efficiency.
+    Topics have ranged from language design, compiler construction, [garbage
+    collection](/publications/cloaca), hardware description, verification, and
+    parallel systems.
+    
+  * Impacts so far include [3 conference papers](/publications), over [8
+    talks](/talks), and [a
+    workshop](https://haflang.github.io/workshops/hafdal24.html) to help
+    consolidate international interest in hardware-accelerated functional
+    programming.
+
 * _2019_ AMD/Xilinx Research Labs --- Boulder, Colorado
   * As part of the research labs, I developed support for the flagship [RFSoC
     platform](https://www.amd.com/en/products/adaptive-socs-and-fpgas/soc/zynq-ultrascale-plus-rfsoc.html)
